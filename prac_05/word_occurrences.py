@@ -1,10 +1,10 @@
-text = input("Enter a string: ").lower()
-words = text.split()
 """
 Word Occurrences
 Estimate: 20 minutes
 Actual:   18 minutes
 """
+text = input("Enter a string: ").lower()
+words = text.split()
 word_counts = {}
 for word in words:
     word_counts[word] = word_counts.get(word, 0) + 1
