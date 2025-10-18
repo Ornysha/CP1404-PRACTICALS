@@ -1,3 +1,8 @@
+"""
+emails.py
+Estimate: 20 minutes
+Actual:   35 minutes
+"""
 def main():
     """Create dictionary of emails-to-names."""
     email_to_name = {}
